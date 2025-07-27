@@ -318,12 +318,14 @@
   font-size: 116px;
   line-height: 83%;
   letter-spacing: 0px;
-  width: 355px;
+  width: 348px;
   max-height: 192px;
   color: var(--title-color);
   text-shadow: 2px 2px 0px var(--accent-color);
   grid-template-rows: 1fr min-content 1fr;
   grid-template-columns: 1fr;
+  margin-left: 4px;
+  margin-right: 3px;
 }
 
 .rec_top_footer {
@@ -547,7 +549,6 @@
   width: 768px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 20px;
 }
 
 .title_footer {
@@ -557,6 +558,7 @@
   align-self: center;
   justify-self: center;
   max-height: 99px;
+  width: 360px;
 }
 }
 
@@ -672,16 +674,18 @@
   width: 1024px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
 
 .title_footer {
-  margin-top: -20px;
+  margin-top: -25px;
   display: grid;
   align-self: center;
   justify-self: center;
   font-size: 157px;
   line-height: 83%;
   width: 471px;
+  align-self: center;
+  justify-self: center;
 }
 }
