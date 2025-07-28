@@ -28,6 +28,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --cover-image: url("../images/cover-image-light.png");
+    --color-background-color: rgb(224, 223, 231);
     --accent-color: #FF8DCB;
     --title-color: #FFC2E6;
     --accent-color-menu: #353430;
