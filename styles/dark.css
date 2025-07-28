@@ -38,12 +38,16 @@
   margin-right: 0px;
 }
 
+
+/*
 @media (prefers-color-scheme: dark) {
  :root.theme-dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+  /*
   --cover-image: url("../images/cover-image-dark.png");
   --accent-color: #FF0070;
   --title-color: #DB00FF;
@@ -55,3 +59,4 @@
   --accent-color-menu-button: #FF007066;
 }
 }
+*/
