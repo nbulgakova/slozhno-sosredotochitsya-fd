@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --cover-image: url("../images/cover-image-dark.png");
+  --color-background-color: rgb(8, 2, 34);
   --accent-color: #FF0070;
   --title-color: #DB00FF;
   --accent-color-menu: #FF0070;
