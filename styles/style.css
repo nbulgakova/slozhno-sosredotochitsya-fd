@@ -40,6 +40,8 @@
   justify-content: end;
   margin-block-start: 10px;
 }
+
+/*
 .rec_element_ellipse {
   position: absolute;
   font-family: IBM Plex Mono;
@@ -54,6 +56,21 @@
   display: grid;
   justify-content: end;
   margin-block-start: 12px;
+}
+*/
+
+.rec_element::after {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 4px 2px #FF0070;
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 42px;
+  margin-right: 0px;
 }
 
 /*
@@ -379,9 +396,10 @@
   margin-block-start: 20px;
 }
 
-.rec_element_ellipse {
-  margin-left: 720px;
-  margin-block-start: 20px;
+.rec_element::after {
+  margin-top: 8px;
+  margin-left: 42px;
+  margin-right: 0px;
 }
 
 .header__theme-menu {
@@ -570,24 +588,17 @@
 
 .rec_top {
   margin-block-start: 20px;
-  
   margin-left: 979px;
   margin-right: 20px;
 }
 
 .rec_bottom {
-  
   margin-block-start: 723px;
   margin-left: 20px;
 }
 
 .rec_element {
   margin-left: 943px;
-  margin-block-start: 20px;
-}
-
-.rec_element_ellipse {
-  margin-left: 980px;
   margin-block-start: 20px;
 }
 
@@ -685,7 +696,5 @@
   font-size: 157px;
   line-height: 83%;
   width: 471px;
-  align-self: center;
-  justify-self: center;
 }
 }

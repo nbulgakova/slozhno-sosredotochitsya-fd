@@ -23,3 +23,17 @@
 .theme-dark .rec_element {
   display: block;
 }
+
+.theme-dark .rec_element::after  {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 4px 2px #FF0070;
+  position: absolute;
+  margin-top: -17px;
+  margin-left: 40px;
+  margin-right: 0px;
+}
