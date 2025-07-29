@@ -4,7 +4,7 @@
 */
 :root {
   --cover-image: url("../images/cover-image-dark.png");
-  --color-background-color: rgb(8, 2, 34);
+  --color-background-color: #000028;
   --accent-color: #FF0070;
   --title-color: #DB00FF;
   --accent-color-menu: #FF0070;
@@ -13,5 +13,7 @@
   --color-reason-title: #000028;
   --color-title__description: #000028;
   --color-reason__text: #F1B2CE;
+  --rectangle-background-image-top: url("../images/Rectangle_77.png");
+  --rectangle-background-image-bottom: url("../images/Rectangle_79.png");
+  --main-font-family: 'IBM Plex mono', monospace;
 }
-
