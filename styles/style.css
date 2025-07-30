@@ -116,8 +116,8 @@
  border-bottom: 1px solid var(--accent-color-menu-button);
 }
 
-.link-decoration:hover  {
-  text-decoration: underline  
+.link-decoration:hover {
+  text-decoration: underline;
 }
 
 .link-decoration:focus {
@@ -454,7 +454,6 @@
   width: 100%;
   box-sizing: border-box;
   margin: 0px;
-
   object-fit: cover;
   height: 100%;
 }
