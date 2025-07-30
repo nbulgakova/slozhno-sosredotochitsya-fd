@@ -103,13 +103,29 @@
   border: 1px solid var(--accent-color-menu-button);
 }
 
+.header__theme-menu-button_active {
+  border: 1px solid var(--accent-color-menu);
+  /*cursor: pointer;*/
+}
+
+.header__theme-menu-button:focus {
+ outline: none;
+}
+
 .header__theme-menu-button:focus-visible {
  border-bottom: 1px solid var(--accent-color-menu-button);
 }
 
-.header__theme-menu-button_active {
-  border: 1px solid var(--accent-color-menu);
-  /*cursor: pointer;*/
+.link-decoration:hover  {
+  text-decoration: underline  
+}
+
+.link-decoration:focus {
+ outline: none;
+ 
+}
+.link-decoration:focus-visible {
+ border: 1px solid var(--color-reason__text);
 }
 
 .header__theme-menu-item {
@@ -218,7 +234,7 @@
   text-shadow: 2px 1px 0px var(--accent-color);
 }
 
-.advice__title {
+.reason__title__thin {
   margin-top: 20px;
   color: #000028;
   background-color: var(--accent-color);
@@ -406,7 +422,7 @@
   margin-bottom: 20px;
 }
 
-.advice__title {
+.reason__title__thin {
   margin-top: 0px;
 }
 
@@ -511,7 +527,7 @@
 
 .rec_element {
   margin-left: 943px;
-  margin-block-start: 20px;
+  /*margin-block-start: 20px;*/
 }
 
 .header__theme-menu {
@@ -534,15 +550,15 @@
   width: 1024px;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   max-height: 130px;
-  margin-left: -20px;
+  /*margin-left: -20px;*/
 }
 
 .title__description {
   align-self: self-start;
-  justify-self: end;
+  /*justify-self: end;*/
   width: 491px;
-  margin-block-start: 0px;
-  margin-bottom: 0px;
+  /*margin-block-start: 0px;
+  margin-bottom: 0px;*/
   margin-right: 20px;
   margin-top: 114px;
 }
@@ -555,41 +571,41 @@
 }
 
 .section__what__all {
-  display: grid;
+  /*display: grid;*/
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 
 .gallery {
-  gap: 20px;
+  /*gap: 20px;*/
   width: 984px;
-  margin-right: 20px;
+  /*margin-right: 20px;
   margin-left: 20px;
-  display: grid;
+  display: grid;*/
   grid-template-columns: 315px 315px 314px;
-  grid-template-rows: max-content;
+  /*grid-template-rows: max-content;*/
 }
 
 .gallery__title {
-  grid-column-start: 1;
+  /*grid-column-start: 1;
   grid-column-end: -1;
   grid-row-start: 1;
-  grid-row-end: 1;
+  grid-row-end: 1;*/
   width: 984px;
 }
 
 .footer {
-  margin-top: 60px;
+  /*margin-top: 60px;*/
   width: 1024px;
-  padding-left: 20px;
-  padding-right: 20px;
+  /*padding-left: 20px;
+  padding-right: 20px;*/
 }
 
 .title_footer {
-  margin-top: 0px;
+  /*margin-top: 0px;
   display: grid;
   align-self: center;
-  justify-self: center;
+  justify-self: center;*/
   font-size: 157px;
   line-height: 83%;
   width: 471px;
