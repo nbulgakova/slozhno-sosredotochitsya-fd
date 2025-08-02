@@ -19,8 +19,6 @@
   --color-reason-title: #353430;
   --color-title__description: #353430;
   --color-reason__text: #353430;
-  --rectangle-background-image-top: url("../images/Rectangle_light_top.png");
-  --rectangle-background-image-bottom: url("../images/Rectangle_light_bottom.png");
 }
 
 .theme-light .rec_element {
