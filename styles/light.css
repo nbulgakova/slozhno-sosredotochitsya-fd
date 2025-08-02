@@ -27,6 +27,10 @@
   display: none;
 }
 
+.theme-light .rec_element::after {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --cover-image: url("../images/cover-image-light.png");
