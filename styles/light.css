@@ -42,4 +42,12 @@
     --color-title__description: #353430;
     --color-reason__text: #353430;
   }
+
+ .rec_element {
+  display: none;
+}
+
+.rec_element::after {
+  display: none;
+}
 }
